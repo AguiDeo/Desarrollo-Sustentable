@@ -718,7 +718,7 @@ footer{
         rgba(255,255,255,0.10),
         rgba(255,255,255,0.10)
     ),
-    url('../imagenes/fondocj.png');
+    url('fondocj.png');
 
     background-size: cover;
     background-position: center;
