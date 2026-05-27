@@ -36,27 +36,24 @@ body{
     text-align: center;
 }
 
-
+/* HEADER */
 
 header{
     width: 100%;
     height: 600px;
-    position: relative;
+    background: linear-gradient(
+        to right,
+        hsla(116, 47%, 38%, 0.35),
+        hsla(196, 88%, 38%, 0.45)
+    ),
+    url(../imagenes/portadalal.gif);
 
-    background: url(../imagenes/nimodo.gif);
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    position: relative;
 }
 
-header::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.4);
-}
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
@@ -718,7 +715,7 @@ footer{
         rgba(255,255,255,0.10),
         rgba(255,255,255,0.10)
     ),
-    url('fondocj.png');
+    url('../imagenes/fondocj.png');
 
     background-size: cover;
     background-position: center;
